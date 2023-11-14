@@ -5,7 +5,7 @@ export default function Post({_id, title, summary, cover, content, ingredients, 
         <div className="post">
         <div className="image">
           <Link to={`/post/${_id}`}>
-          <img src={'http://localhost:4000/'+cover} alt="" />
+          <img src={'https://recipe-app-otc5.onrender.com/'+cover} alt="" />
           </Link>
           
         </div>
